@@ -1,0 +1,25 @@
+.jumbotron {
+   height: 500px;
+   background: url(galery/wallpaper.jpg);
+   background-size: cover;
+}
+
+.jumbotron img {
+   width: 220px;
+   border: 5px solid #DCDCDC;
+   margin-bottom: 10px;
+}
+
+.col {
+   background-color:rgb(236, 236, 236);
+}
+
+.batas-atas {
+   padding-top: 10px;
+   color: green;
+}
+
+hr {
+   width: 250px;
+   background-color: green;
+}
