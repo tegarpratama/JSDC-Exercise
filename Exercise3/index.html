@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+   <title>Exercise 3</title>
+</head>
+<body>
+
+   <div class="container mt-5">
+      <h2 class="text-center">STARWARS API </h2>
+      <button class="btn btn-info" onclick="sortTable()">Sort</button>
+      <table class="table table-bordered table-striped table-responsive text-center mt-3" id="myTable">
+         <thead>
+            <tr class="bg-info">
+               <th>Planet Name</th>
+               <th>Rotation Period</th>
+               <th>Orbital Period</th>
+               <th>Diameter</th>
+               <th>Climate</th>
+               <th>Gravity</th>
+               <th>Terrain</th>
+               <th>Surface Water</th>
+               <th>Population</th>
+               <th>Created</th>
+               <th>Edited</th>
+            </tr>
+         </thead>
+      </table>
+   </div>
+
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
