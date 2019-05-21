@@ -1,0 +1,176 @@
+.carousel-item {
+   height: 65vh;
+   min-height: 675px;
+   background: no-repeat center center scroll;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.h2-about {
+   font-weight: bold;
+   font-size: 50px;
+}
+
+hr{
+   width: 450px;
+   border: 1 none;
+   height: 2px;
+   background-color: black
+}
+
+.p-about {
+   font-size: 20px;
+}
+
+.footer{
+   height: 250px;
+   background-color:rgb(212, 0, 40);
+   padding-top: 30px;
+}
+
+.img-footer{
+   padding-bottom: 15px;
+   margin-left : 5px;
+   margin-right: 5px;
+   width: 50px;
+}
+
+.footer h2{
+   font-weight: bold;
+   color: black;
+}
+
+.footer p{
+   color: black;
+   padding-top: 5px;
+}
+
+.copyright a{
+   color: white;  
+}
+
+.jumbotron.about {
+   min-height: 675px;
+   background: url(../img/about.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+}
+
+.hero-text {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   text-shadow: 2px 2px rgb(107, 105, 105);
+}
+
+.jumbotron p{
+   text-align: right;
+   color: grey;
+   padding-right: 90px;
+}
+
+.jumbotron a{
+    color: grey;
+    font-size: 20px;
+}
+
+.profile {
+   height: 300px;
+   width: 250px;
+}
+
+.col-6.about{
+   padding-top: 15%;
+}
+
+.col-6.about h2{
+   font-weight: bold;
+   font-size: 45px;
+   color: black;
+}
+
+.col-6.about hr{
+   border: 1 none;
+   height: 2px;
+   background-color: black;
+   width: 360px;
+}
+
+.container.text-center h2{
+   font-weight: bold;
+   font-size: 45px;
+   color: black;
+}
+
+.container.text-center hr{
+   border: 1 none;
+   height: 2px;
+   background-color: black;
+   width: 190px;
+}
+
+.dev-icons {
+   font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+   color: rgb(212, 0, 40);
+}
+
+.jumbotron.contact{
+   background: url(../img/wallpaper2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   height: 670px;    
+}
+
+.jumbotron.contact h2{
+   padding-top: 200px;
+}
+
+.contact-icons {
+   font-size: 20px;
+}
+
+.contact-icons i{
+   padding-left: 170px;
+}
+
+.contact-icons p{
+   padding-left: 90px;
+}
+
+.jumbotron.portfolio{
+   background: url(../img/portfolio.jpg);
+   background-size: cover;
+   /* background-position: 0 -130px; */
+   background-attachment: fixed;
+   height: 670px;
+}
+
+.portfolio-text{
+   font-weight: bold;
+   font-size: 45px;
+   color: rgb(97, 95, 95);
+   text-align: center;
+   padding-top: 50px;
+}
+
+.portfolio .thumbnail {
+   opacity: 0;
+   transform: translate(0, -40px);
+   transition: .5s;
+}
+
+.portfolio .thumbnail.muncul{
+   opacity: 1;
+   transform: translate(0, 0);
+}
