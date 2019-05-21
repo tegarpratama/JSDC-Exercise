@@ -1,0 +1,30 @@
+button {
+   margin: 50px;
+   width: 50px;
+   height: 50px;
+}
+
+container {
+   margin: 5px;
+}
+
+#specialButton {
+   width: 110px;
+}
+
+#atas {
+   background-color: rgb(207, 204, 204);
+   color: black;
+}
+
+#display {
+   width: 225px;
+   height: 60px;
+   font-size: 30px;
+}
+
+.kotak {
+   padding-top: 50px;
+   width: 250px;
+   margin: auto;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+   <title>Exercise 2</title>
+</head>
+<body>
+
+   <div class="kotak">
+      <div class="row justify-content-center">
+         <form name="form">
+            <input name="display" type="text" class="form-control m-1" id="display" disabled>
+         </form>
+      </div>
+      <div class="row justify-content-center">
+         <button id="specialButton" type="button" class="btn btn-info m-1" onclick="displayC()">C</button>
+         <button type="button" class="btn btn-info m-1" value="%" onclick="displayPersen()">%</button>
+         <button type="button" class="btn btn-info m-1" onclick="displaySqrt()" value="Sqrt">&radic;</button>
+      </div>
+      <div class="row justify-content-center">
+         <button type="button" class="btn btn-info m-1" onclick="displaySin()">sin</button>
+         <button type="button" class="btn btn-info m-1" onclick="displayCos()">cos</button>
+         <button type="button" class="btn btn-info m-1" onclick="displayTan()">tan</button>
+         <button type="button" class="btn btn-warning m-1" value="/" onclick="displayNumber(this.value)">&divide;</button>
+      </div>
+      <div class="row justify-content-center">
+         <button type="button" class="btn btn-secondary m-1" value="7" onclick="displayNumber(this.value)">7</button>
+         <button type="button" class="btn btn-secondary m-1" value="8" onclick="displayNumber(this.value)">8</button>
+         <button type="button" class="btn btn-secondary m-1" value="9" onclick="displayNumber(this.value)">9</button>
+         <button type="button" class="btn btn-warning m-1" value="*" onclick="displayNumber(this.value)">&times;</button>   
+      </div>
+      <div class="row justify-content-center">
+         <button type="button" class="btn btn-secondary m-1" value="4" onclick="displayNumber(this.value)">4</button>
+         <button type="button" class="btn btn-secondary m-1" value="5" onclick="displayNumber(this.value)">5</button>
+         <button type="button" class="btn btn-secondary m-1" value="6" onclick="displayNumber(this.value)">6</button>
+         <button type="button" class="btn btn-warning m-1" value="+" onclick="displayNumber(this.value)">+</button>
+      </div>
+      <div class="row justify-content-center">
+         <button type="button" class="btn btn-secondary m-1" value="1" onclick="displayNumber(this.value)">1</button>
+         <button type="button" class="btn btn-secondary m-1" value="2" onclick="displayNumber(this.value)">2</button>
+         <button type="button" class="btn btn-secondary m-1" value="3" onclick="displayNumber(this.value)">3</button>
+         <button type="button" class="btn btn-warning m-1" value="-" onclick="displayNumber(this.value)">-</button>
+      </div>
+      <div class="row justify-content-center">
+         <button id="specialButton" type="button" class="btn btn-secondary m-1" value="0" onclick="displayNumber(this.value)">0</button>
+         <button type="button" class="btn btn-secondary m-1" value="." onclick="displayNumber(this.value)">.</button>
+         <button type="button" class="btn btn-warning m-1" value="=" onclick="displayResult(display.value)">=</button>
+      </div>   
+   </div>
+
+<script src="script.js"></script>
+   
+</body>
+</html>
